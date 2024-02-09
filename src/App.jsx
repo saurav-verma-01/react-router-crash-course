@@ -1,9 +1,13 @@
-import React from "react";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import Home from "./components/Home/Home";
 
 const App = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Header />
+      <Home />
+      <Footer />
     </div>
   );
 };
